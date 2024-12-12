@@ -4,3 +4,12 @@
     background-color: #020230;
     color: white;
 }
+
+.main{
+    width: 75%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230), url("./assets/bg.jpg") center;
+}
+
+.pyramid{
+    width:25%;
+}
