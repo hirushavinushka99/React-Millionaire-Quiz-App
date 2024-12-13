@@ -8,6 +8,26 @@
 .main{
     width: 75%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230), url("./assets/bg.jpg") center;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    height: 50%;
+}
+
+.timer{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    height: 50%;
 }
 
 .pyramid{
