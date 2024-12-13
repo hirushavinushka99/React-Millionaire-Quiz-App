@@ -14,6 +14,7 @@
 
 .top{
     height: 50%;
+    position: relative;
 }
 
 .timer{
@@ -24,6 +25,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
 }
 
 .bottom {
