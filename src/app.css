@@ -32,8 +32,26 @@
     left: 80px;
 }
 
-.bottom {
+.bottom{
     height: 50%;
+}
+
+.trivia{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.question{
+    width: 80%;
+    background: linear-gradient(#100241, black);
+    border: 2px solid white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 .pyramid{
