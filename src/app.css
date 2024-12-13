@@ -54,6 +54,31 @@
     font-size: 20px;
 }
 
+.answers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.answer{
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(#0e0124, #22074d);
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    margin: 0 10px 20px 10px;
+}
+
+.answer:hover, 
+.answer.active{
+    background: mediumblue;
+}
+
 .pyramid{
     width:25%;
     display: flex;
